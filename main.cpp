@@ -21,7 +21,7 @@ int main() {
     Matrix<int> matrix5(2, 3, 2, data3);
     Matrix<int> matrix6(3, 2, 2, data4);
     cout << matrix5 << (matrix5 * 2);
-    cout << matrix3 * matrix4 << (matrix1 == matrix2);
+    cout << matrix3 * matrix4 << (matrix1 == matrix2) << endl;
     Matrix<int> matrix7 = matrix1;
     Matrix<int> matrix8(2, 2, 2, data1);
     matrix8 = matrix1;
